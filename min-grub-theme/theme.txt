@@ -1,0 +1,32 @@
+title-text: ""
+desktop-color: "#2b2d42"
+# desktop-image: "wallpaper.png"
+# desktop-image-scale-method: "crop"
+terminal-font: "Roboto Bold 48"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 5%
+  top = 30%
+  width = 60%
+  height = 60%
+  item_font = "Roboto Bold 48"
+  item_color = "#222222"
+  selected_item_color = "#ffffff"
+  item_height = 64
+  item_spacing = 16
+}
+
++ progress_bar {
+  top = 99%
+  left = 0%
+  width = 100%
+  height = 1%
+  id = "__timeout__"
+  fg_color = "#ffffff"
+  bg_color = "#222222"
+}
